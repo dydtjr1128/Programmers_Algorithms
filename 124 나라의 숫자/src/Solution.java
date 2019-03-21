@@ -1,8 +1,9 @@
-import java.io.*;
+import java.io.IOException;
 
 public class Solution {
     public String solution(int n) {
         StringBuilder builder = new StringBuilder();
+
         int t;
         //11 42
         //12 44
@@ -42,12 +43,12 @@ public class Solution {
         }
         builder.insert(0, n % 3);
 
-        return builder.toString().replace("0","");
+        return builder.toString().replace("0", "");
     }
 
     public static void main(String[] args) throws IOException {
         Solution solution = new Solution();
-        for(int i=0; i<30; i++) {
+        for (int i = 0; i < 30; i++) {
             System.out.println(solution.solution(i));
         }
     }
