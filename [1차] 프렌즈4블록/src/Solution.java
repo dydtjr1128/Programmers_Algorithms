@@ -103,7 +103,8 @@ public class Solution {
     public static void main(String[] args) {
         Solution solution = new Solution();
         //System.out.println(solution.solution(6, 6, new String[]{"TTTANT", "RRFACC", "RRRFCC", "TRRRAA", "TTMMMF", "TMMTTJ"}));
-        System.out.println(solution.solution(6, 6, new String[]{"TTTAAA", "TTFACC", "TTRFCC", "TTRRAA", "TTMMMF", "TMMTTJ"}));
+        //System.out.println(solution.solution(6, 6, new String[]{"TTTAAA", "TTFACC", "TTRFCC", "TTRRAA", "TTMMMF", "TMMTTJ"}));
+        System.out.println(solution.solution(4, 5, new String[]{"AAAAA", "AAAAA", "AAAAA", "AABAA"}));
         //System.out.println(solution.solution(6, 6, new String[]{"AAAAAT", "AATTTT", "TTTTTT", "TTTTTT", "TTTTTT", "TTTTTA"}));
         //System.out.println(solution.solution(6, 6, new String[]{"ABABAT", "BABATB", "ATBTBT", "DTDATD", "CTCTTD", "ABTCTA"}));
         //System.out.println(solution.solution(4, 5, new String[]{"CCBDE", "AAADE", "AAABF", "CCBBF"}));
