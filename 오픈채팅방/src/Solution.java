@@ -16,7 +16,7 @@ public class Solution {
     class Log {
         Log(User user, String state) {
             this.user = user;
-            this.state = state;1
+            this.state = state;
         }
 
         User user;
